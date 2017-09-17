@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94D35E11F6E31F20088D844 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D35E01F6E31F20088D844 /* PlaySoundsViewController.swift */; };
+		F9F400FC1F6E588300CE1AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F400FA1F6E588300CE1AF0 /* Main.storyboard */; };
+		F9F400FE1F6E652000CE1AF0 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F400FD1F6E652000CE1AF0 /* playsoundsviewcontroller-audio.swift */; };
+		F9FF85381F6E123700D38823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF85371F6E123700D38823 /* AppDelegate.swift */; };
+		F9FF853A1F6E123700D38823 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF85391F6E123700D38823 /* RecordSoundsViewController.swift */; };
+		F9FF853F1F6E123700D38823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FF853E1F6E123700D38823 /* Assets.xcassets */; };
+		F9FF85421F6E123700D38823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FF85401F6E123700D38823 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F94D35E01F6E31F20088D844 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewController.swift; path = ../../PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		F94D35E31F6E33540088D844 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9F400FB1F6E588300CE1AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F400FD1F6E652000CE1AF0 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		F9FF85341F6E123700D38823 /* Voco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FF85371F6E123700D38823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9FF85391F6E123700D38823 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		F9FF853E1F6E123700D38823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9FF85411F6E123700D38823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9FF85431F6E123700D38823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FF85311F6E123700D38823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94D35E21F6E33540088D844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F94D35E31F6E33540088D844 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9FF852B1F6E123700D38823 = {
+			isa = PBXGroup;
+			children = (
+				F9FF85361F6E123700D38823 /* Voco */,
+				F9FF85351F6E123700D38823 /* Products */,
+				F94D35E21F6E33540088D844 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FF85351F6E123700D38823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FF85341F6E123700D38823 /* Voco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FF85361F6E123700D38823 /* Voco */ = {
+			isa = PBXGroup;
+			children = (
+				F9FF85371F6E123700D38823 /* AppDelegate.swift */,
+				F9FF85391F6E123700D38823 /* RecordSoundsViewController.swift */,
+				F94D35E01F6E31F20088D844 /* PlaySoundsViewController.swift */,
+				F9F400FA1F6E588300CE1AF0 /* Main.storyboard */,
+				F9FF853E1F6E123700D38823 /* Assets.xcassets */,
+				F9FF85401F6E123700D38823 /* LaunchScreen.storyboard */,
+				F9FF85431F6E123700D38823 /* Info.plist */,
+				F9F400FD1F6E652000CE1AF0 /* playsoundsviewcontroller-audio.swift */,
+			);
+			path = Voco;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FF85331F6E123700D38823 /* Voco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FF85461F6E123700D38823 /* Build configuration list for PBXNativeTarget "Voco" */;
+			buildPhases = (
+				F9FF85301F6E123700D38823 /* Sources */,
+				F9FF85311F6E123700D38823 /* Frameworks */,
+				F9FF85321F6E123700D38823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voco;
+			productName = Voco;
+			productReference = F9FF85341F6E123700D38823 /* Voco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FF852C1F6E123700D38823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Riad Hoque";
+				TargetAttributes = {
+					F9FF85331F6E123700D38823 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NULMPJW5A9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9FF852F1F6E123700D38823 /* Build configuration list for PBXProject "Voco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9FF852B1F6E123700D38823;
+			productRefGroup = F9FF85351F6E123700D38823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FF85331F6E123700D38823 /* Voco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9FF85321F6E123700D38823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F400FC1F6E588300CE1AF0 /* Main.storyboard in Resources */,
+				F9FF85421F6E123700D38823 /* LaunchScreen.storyboard in Resources */,
+				F9FF853F1F6E123700D38823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FF85301F6E123700D38823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FF853A1F6E123700D38823 /* RecordSoundsViewController.swift in Sources */,
+				F94D35E11F6E31F20088D844 /* PlaySoundsViewController.swift in Sources */,
+				F9FF85381F6E123700D38823 /* AppDelegate.swift in Sources */,
+				F9F400FE1F6E652000CE1AF0 /* playsoundsviewcontroller-audio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9F400FA1F6E588300CE1AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F400FB1F6E588300CE1AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9FF85401F6E123700D38823 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FF85411F6E123700D38823 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9FF85441F6E123700D38823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9FF85451F6E123700D38823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9FF85471F6E123700D38823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NULMPJW5A9;
+				INFOPLIST_FILE = Voco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Riadhoq.Voco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9FF85481F6E123700D38823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NULMPJW5A9;
+				INFOPLIST_FILE = Voco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Riadhoq.Voco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FF852F1F6E123700D38823 /* Build configuration list for PBXProject "Voco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FF85441F6E123700D38823 /* Debug */,
+				F9FF85451F6E123700D38823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FF85461F6E123700D38823 /* Build configuration list for PBXNativeTarget "Voco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FF85471F6E123700D38823 /* Debug */,
+				F9FF85481F6E123700D38823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FF852C1F6E123700D38823 /* Project object */;
+}
